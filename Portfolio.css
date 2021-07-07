@@ -1,0 +1,351 @@
+html,
+body {
+    background-color: #6855cf;
+}
+
+.bolinhas {
+    display: grid;
+    grid-template-areas: "b1 b2 b3 b4 b5 b6";
+
+}
+
+#b1 {
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    left: 5px;
+    top: 30px;
+    border-radius:200px;
+    background: #8987FF;
+    filter:blur(2px);
+}
+
+#b2  {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    left: 900px;
+    top: 5px;
+    border-radius: 400px;
+    background: #00CEFC;
+    mix-blend-mode: normal;
+    filter:blur(2px);
+}
+
+#b3 {
+    position: absolute;
+    width: 265px;
+    height: 265px;
+    left: 550px;
+    top: 26px;
+    border-radius: 200px;
+    background: #6EE4FE;
+    filter:blur(2px);
+}
+
+#b4 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 30px;
+    top: 530px;
+    border-radius:80px;
+    background: #5483FE;
+    filter:blur(2px);
+}
+
+#b5 {
+    position: absolute;
+    width: 105px;
+    height: 110px;
+    left: 1200px;
+    top: 500px;
+    border-radius: 80px;
+    background: #B59CFD;
+    filter:blur(2px);
+}
+
+#b6 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 570px;
+    top: 260px;
+    border-radius: 200px;
+    background: #BE6DF0;
+    filter:blur(2px);
+}
+
+
+
+.quadrado {
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    left: 370px;
+    top: 50px;
+    background-image: url("close-up-do-teclado-com-luzes-de-neon_290947-128.png");
+    background-size: 900px;
+    mix-blend-mode: overlay;
+    opacity: 110%;
+    grid-template-areas: "t1 t2 t3";
+}
+
+#t1 {
+    position: absolute;
+    left: 400px;
+    top: 50px;
+}
+
+#t2 {
+    position: absolute;
+    left: 900px;
+    top: 50px;
+}
+
+#t3 {
+    position: absolute;
+    left: 570px;
+    top:270px;
+}
+
+.retangulo {
+    position: absolute;
+    width: 305px;
+    height: 600px;
+    left: 65px;
+    top: 50px;
+    background: linear-gradient(180deg, #9963C4 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #470073 0%, rgba(255, 255, 255, 0) 100%), #2B0040;
+
+}
+
+.bolinhas2 {
+    display: grid;
+    grid-template-areas:"b21 b22 b23"; 
+   
+}
+
+#b21 {
+    position: absolute;
+    width: 188px;
+    height: 192px;
+    left: 90px;
+    top: 80px;
+    border-radius: 200px;
+    background: #8517DB;
+    filter:blur(2px);
+}
+
+#b22 {
+    position: absolute;
+    width: 141px;
+    height: 136px;
+    left: 143px;
+    top: 300px;
+    border-radius: 200px;
+    background: #4A25B3;
+    filter:blur(2px);
+}
+
+#b23 {
+    position: absolute;
+    width: 98px;
+    height: 103px;
+    left: 80px;
+    top: 530px;
+    border-radius: 80px;
+    background: #1D0B65;
+    filter:blur(2px);
+}
+
+.fotofundo {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    left: 230px;
+    top: 150px;
+    background: #45326D;
+}
+
+.bolinhas3 {
+    display: grid;
+    grid-template-areas:"b31 b32 b33 cat";
+}
+
+#b31 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    left: 260px;
+    top: 180px;
+    border-radius: 80px;
+    background: #3CA9E6;
+    filter:blur(2px);
+}
+
+#b32 {
+    position: absolute;
+    width: 93px;
+    height: 94px;
+    left: 410px;
+    top: 252px;
+    border-radius: 80px;
+    background: #7EAFF9;
+    filter:blur(2px);
+}
+
+#b33 {
+    position: absolute;
+    width: 122px;
+    height: 119px;
+    left: 270px;
+    top: 400px;
+    border-radius: 80px;
+    background: #BF11DB;
+    filter:blur(2px);
+}
+
+#cat {
+    position: absolute;
+    top: 175px;
+    left: 255px;
+}
+
+.git {
+    display: grid;
+    background-color: #6F6F6F;
+    grid-template-areas: "p fb";
+}
+
+#p {
+    grid-area: p;
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 550px;
+    margin-left: 1100px;
+    border-radius: 80px;
+}
+
+#fb {
+    position:absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: 545px;
+    margin-left: 1170px;
+    border-radius: 80px;
+}
+
+.trabalhos {
+    display: grid;
+    position: absolute;
+    background: #5544b9;
+    top: 700px;
+    width: 1308px;
+    height: 600px;
+    left: 1px;
+    grid-template-areas: "t4 t5";
+}
+
+#t4 {
+    position: absolute;
+    left: 530px;
+    z-index: 4;
+}
+
+#t5 {
+    position: absolute;
+    left: 430px;
+    top: 250px;
+    z-index: 4;
+}
+
+.maisbolinhas {
+    display: grid;
+    grid-template-areas: "mb1 mb2 mb3 mb4"
+}
+
+#mb1 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: #00CEFC;
+    top: 700px;
+    border-radius: 300px;
+}
+
+#mb2 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #005e74;
+    top: 700px;
+    left: 900px;
+    border-radius: 200px;
+}
+
+#mb3 {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-color: #81d3e6;
+    top: 700px;
+    left: 360px;
+    border-radius: 400px;
+}
+
+#mb4 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #367685;
+    top: 1100px;
+    left: 250px;
+    border-radius: 200px;
+}
+
+.links {
+    display: grid;
+    grid-template-areas: "pkm cel nin caixax homecon nincod";
+}
+
+#cel {
+    position: absolute;
+    top:700px;
+}
+
+#pkm {
+    position: absolute;
+    top: 840px;
+    left: 150px;
+}
+
+#nin {
+    position: absolute;
+    top: 1150px;
+}
+
+#caixax {
+    position: absolute;
+    top: 1150px;
+    left: 1000px;
+}
+
+#homecon {
+    position: absolute;
+    left: 970px;
+    top: 1000px;
+}
+
+#nincod {
+    position: absolute;
+    left: 960px;
+    top: 760px;
+}
+
+#celcod {
+    position: absolute;
+    top: 710px;
+    left: 1100px;
+}
+
